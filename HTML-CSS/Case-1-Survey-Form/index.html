@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<div class="container">
+  <div class="header">
+    <h1 id="title">Survey Form<h1>
+        <p id="description">Thank for your feedback!</p>
+  </div>
+  <section>
+    <form id="survey-form">
+      <div class="survey-group">
+        <label id="name-label">Name*<input id="name" placeholder="Please Enter your name" type="text" required></label>
+      </div>
+      <div class="survey-group">
+        <label id="email-label">E-mail*<input id="email" placeholder="Please Enter your email" type="email"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required></label>
+      </div>
+      <div class="survey-group">
+        <label id="number-label">Age*<input id="number" placeholder="Please Enter your age" type="number" min="18"
+            max="100" required></label>
+      </div>
+      <div class="survey-group">
+        <select id="dropdown">
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select>
+      </div>
+      <div class="survey-group">
+        <label>One<input type="radio" value="one" name="s"></label>
+        <label>Two<input type="radio" value="two" name="s"></label>
+        <label>Three<input type="radio" value="three" name="f"></label>
+        <label>Three<input type="radio" value="four" name="f"></label>
+      </div>
+      <div class="survey-group">
+        <label>A<input type="checkbox" value="a"></label>
+        <label>B<input type="checkbox" value="b"></label>
+        <label>C<input type="checkbox" value="c"></label>
+        <label>D<input type="checkbox" value="d"></label>
+        <label>E<input type="checkbox" value="e"></label>
+      </div>
+      <div class="survey-group">
+        <textarea></textarea>
+      </div>
+      <div class="survey-group">
+        <label><input type="submit" id="submit"></label>
+      </div>
+    </form>
+  </section>
+</div>
+<div>
+
+  <body>
+  </body>
+
+</html>
